@@ -1,0 +1,78 @@
+/* Basic css */
+
+@font-face {
+  font-family: "Museo Sans 500", sans-serif;
+  src: url("../webfonts/MuseoSans-500.eot");
+  src: url("../webfonts/MuseoSans-500.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/MuseoSans-500.woff2") format("woff2"),
+    url("../webfonts/MuseoSans-500.woff") format("woff"),
+    url("../webfonts/MuseoSans-500.ttf") format("truetype"),
+    url("../webfonts/MuseoSans-500.svg#MuseoSans-500") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Museo Sans 500", sans-serif;
+  color: #000000;
+  font-weight: normal;
+  line-height: 1.2;
+  font-size: 16px;
+  background-color: #2f334a;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0 0 15px;
+  line-height: 1.2;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+button:focus {
+  outline: 0 solid;
+}
+
+.wrapper {
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper .main-wrap {
+  margin: auto 0;
+  padding: 20px 0px;
+}
+
+.wrapper .header {
+  padding: 20px 0px;
+}
+
+.wrapper .footer {
+  padding: 20px 0px;
+}
